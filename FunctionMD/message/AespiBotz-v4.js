@@ -827,7 +827,7 @@ reply("Jawaban Salah Kak!")
        }    
     if (chatmessage.includes(`kontol`) || chatmessage.includes(`Bangsat`) || chatmessage.includes(`bangsat`) || chatmessage.includes(`Bacot`) || chatmessage.includes(`bacot`) || chatmessage.includes(`Kontol`)){
        sock.sendMessage(from, 
-        { text: 'Yang sopan dikit Dek' }, 
+        { text: 'Gaboleh Toxic Kak Nanti Bot Sedih :(' }, 
         { quoted : m })  
 
        } 
@@ -930,7 +930,7 @@ Klik APi untuk memulai obrolan`
 
  case 'tebakkabupaten':{
  if (_tebakkabupaten.hasOwnProperty(m.sender.split('@')[0])) return reply("Masih ada permainan yang sedang berlangsung") 
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    let upah = randomInt(500, 600)   
    let waktu = 60000
    let datta = tebakkabupaten
@@ -956,7 +956,7 @@ Klik APi untuk memulai obrolan`
  break
  case 'tebakanime':{
  if (_tebakanime.hasOwnProperty(m.sender.split('@')[0])) return reply("Masih ada permainan yang sedang berlangsung")
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    let upah = randomInt(500, 600)   
    let waktu = 60000
    let datta = tebakanime
@@ -983,7 +983,7 @@ Klik APi untuk memulai obrolan`
  break
  case 'tebakbendera':{
  if (_tebakbendera.hasOwnProperty(m.sender.split('@')[0])) return reply("Masih ada permainan yang sedang berlangsung")
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    let upah = randomInt(500, 600)   
    let waktu = 60000
    /*
@@ -1408,7 +1408,7 @@ reply(texto)
             break	
 case 'cuttly': 
 if (!q) return reply('link?')
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 let anu3 = await fetchJson(`https://cutt.ly/api/api.php?key=341578d2de946244680120edd9d03f068dd38&short=${args[0]}`)
 reply(anu3.url.shortLink) 
@@ -1420,7 +1420,7 @@ break
 case 'luas-segitiga':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`untuk mencari hasil dari luas segitiga\nGunakan ${prefix}luassegitiga alas tinggi\ncontoh: ${prefix}luas-segitiga 12 7`)
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const luasseg = bdr.datar.luas.segitiga(args[0], args[1], false)
 const caraluas = bdr.datar.luas.segitiga(args[0], args[1], true)
@@ -1432,7 +1432,7 @@ break
 case 'kel-segitiga':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`Untuk mencari Hasil dari keliling segitiga\nGunakan ${prefix}kelsegitiga sisi1 sisi2 sisi3\nContoh: ${prefix}kelsegitiga 32 10 8`)
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const kelsegitiga = bdr.datar.keliling.segitiga(args[0], args[1], args[2], false)
 const carakel = bdr.datar.keliling.segitiga(args[0], args[1], args[2], true)
@@ -1444,7 +1444,7 @@ break
 case 'luas-persegi':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`Untuk mencari Hasil dari luas persegi\nGunakan ${prefix}luaspersegi angka\nContoh: ${prefix}luaspersegi 32`) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const luaspersegi = bdr.datar.luas.persegi(q, false)
 const luaspersegis = bdr.datar.luas.persegi(q, true)
@@ -1456,7 +1456,7 @@ break
 case 'kel-persegi':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`Untuk mencari Hasil dari keliling persegi\nGunakan ${prefix}kelpersegi angka\nContoh: ${prefix}kelpersegi 78`) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const persegi = bdr.datar.keliling.persegi(q, false)
 const caraPersegi = bdr.datar.keliling.persegi(q, true)
@@ -1468,7 +1468,7 @@ break
 case 'kuadrat':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`Untuk mencari sebuah Hasil Kuadrat\nGunakan ${prefix}kuadrat angka\nContoh: ${prefix}kuadrat 6`) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const kuadrat = bdr.rdb.kuadrat(q)
 reply(`*Hasil:* ${kuadrat}`) 
@@ -1479,7 +1479,7 @@ break
 case 'kubik':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`Untuk mencari sebuah Hasil Kubik\nGunakan ${prefix}kubik angka\nContoh: ${prefix}kubik 9`) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const kubik = bdr.rdb.kubik(q)
 reply(`*Hasil:* ${kubik}`) 
@@ -1491,7 +1491,7 @@ break
     case 'otaku': case 'otakudesu':
 if (q.includes('--help')) return reply(examquery) 
 if(!q) return reply('judul animenya?')
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 let anime = await hx.otakudesu(q)
 let rem = `*Judul* : ${anime.judul}
 *Jepang* : ${anime.jepang}
@@ -1511,7 +1511,7 @@ case 'mediafire':
 if (q.includes('--help')) return reply(examlink) 
 if (args.length < 1) return reply('Mana Link Nya Ngab')
 if (!args[0].includes('mediafire')) return reply(`Link is not valid`)
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const teks1 = args.join(' ')
 const baby1 = await mediafireDl(teks1)
 const result4 = `*DATA DITEMUKAN*				
@@ -1524,7 +1524,7 @@ sock.sendMessage(from, { document : { url : baby1[0].link}, fileName : baby1[0].
 break
 case 'aesthetic':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const Ariell = fs.readFileSync("./FunctionMD/scrape/Result/RandomImage/aesthetic.json");
 const Ariel = JSON.parse(Ariell)
 const Arielll = Math.floor(Math.random() * Ariel.length)
@@ -1533,7 +1533,7 @@ sock.sendMessage(from, { image : { url : Ariellll }, caption : 'nih' }, { quoted
 break
 case 'storywa':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const Ariel1 = fs.readFileSync("./FunctionMD/scrape/Result/RandomVideo/storywa.json");
 const Ariel2 = JSON.parse(Ariel1)
 const Ariel3 = Math.floor(Math.random() * Ariel2.length)
@@ -1542,7 +1542,7 @@ sock.sendMessage(from, { video : { url : Ariel4.url }, caption : 'nih' })
 break
 case 'patrik':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const Arielll1 = fs.readFileSync("./Ariel-SP_Ganteng/Patrik/stiker.json");
 const Arielll2 = JSON.parse(Arielll1)
 const Arielll3 = Math.floor(Math.random() * Arielll2.length)
@@ -1551,7 +1551,7 @@ sock.sendMessage(from, { image : { url : Arielll4.url }, caption : 'Jika Ingin D
 break
 case 'penyegar':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const Ariellll1 = fs.readFileSync("./Ariel-SP_Ganteng/Ariel-Kece.json");
 const Ariellll2 = JSON.parse(Ariellll1)
 const Ariellll3 = Math.floor(Math.random() * Ariellll2.length)
@@ -1560,7 +1560,7 @@ sock.sendMessage(from, { video : { url : Ariellll4.url }, caption : 'Penyegar Ra
 break
 case 'moodbooster':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const Arielllll1 = fs.readFileSync("./Ariel-SP_Ganteng/Ariel-Kece1.json");
 const Arielllll2 = JSON.parse(Arielllll1)
 const Arielllll3 = Math.floor(Math.random() * Arielllll2.length)
@@ -1584,7 +1584,7 @@ case 'sewabot':
   reply(`*Permanent* : *_10K_*\nSilahkan Chat wa.me/6282118022072 ಥ‿ಥ`)
   break
 case 'unduh':{
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
   try{
   let filename = Math.ceil(Math.random() * 99999)
    if (m.isQuotedImage) {
@@ -1632,7 +1632,7 @@ case 'unduh':{
   }
  break
  case 'togif':{
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
  try{
   if (!m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated !== true){
     reply('Please wait.....')
@@ -1651,7 +1651,7 @@ case 'unduh':{
    }
   break
  case 'tomp3':{
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
     if (!m.message.extendedTextMessage?.contextInfo.quotedMessage.videoMessage) return reply ('Reply videonya tod!')
     var stream = await downloadContentFromMessage(m.message.extendedTextMessage?.contextInfo.quotedMessage.videoMessage, 'video')
     var buffer = Buffer.from([])
@@ -1663,7 +1663,7 @@ case 'unduh':{
    }
   break
  case 'tovn':{
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
  try{
    if (m.message.extendedTextMessage.contextInfo.quotedMessage.audioMessage){
     reply('Please wait.....')
@@ -1689,7 +1689,7 @@ case 'unduh':{
   break
 case 'tinyurl':
 if (q.includes('--help')) return reply(examlink)
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 try {
 const link = args[0]
 const anu3 = await axios.get(`https://tinyurl.com/api-create.php?url=${link}`)
@@ -1710,7 +1710,7 @@ break
 case 'lirik':
 if (q.includes('--help')) return reply(examquery) 
 if (args.length < 1) return reply('title?')
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 lirikLagu(q).then((res) => {
 let lirik = `${res[0].result}`
 reply(lirik)
@@ -1719,12 +1719,12 @@ break
 case 'jadwaltv':
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply('Kirim perintah *#jadwaltv [channel]*')
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 reply(await jadwaltv(q))
 break
 case 'covidindo':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const c = await covid()
 var { kasus, kematian, sembuh } = c[0]
 sock.sendMessage(from, {text : `Kasus : ${kasus}\n\nKematian : ${kematian}\n\nSembuh : ${sembuh}`}, m)
@@ -1732,7 +1732,7 @@ break
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
 case 'gempa':
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const tres = await Gempa()
 var { Waktu, Lintang, Bujur, Magnitude, Kedalaman, Wilayah, Map } = tres.result
 console.log(Map)
@@ -1742,7 +1742,7 @@ break
 case 'chara':
 if (q.includes('--help')) return reply(examquery) 
 if(!q) return reply(`gambar apa?\n${prefix}chara nino`)
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 let im = await hx.chara(q)
 let acak = im[Math.floor(Math.random() * im.length)]
 await sock.sendMessage(from, {image : { url : acak }, caption : 'Nih bang'})
@@ -1752,7 +1752,7 @@ break
 case 'tebakgambar':
 if (q.includes('--help')) return reply(examkosong) 
 if (isPlayGame(from, tebakgambar)) return reply(`Masih ada game yang belum diselesaikan`)
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 kotz.tebakgambar().then( data => {
 const data2 = data[0]
 data2.jawaban = data2.jawaban.split('Jawaban ').join('')
@@ -1767,7 +1767,7 @@ break
 case 'google': {
 if (q.includes('--help')) return reply(examquery) 
 if (!q) reply(`*Example : ${prefix + order} Cara buat bakso*`) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 google({'query': q}).then(res => {
 let teks = `Google Search From : ${q}\n\n`
 for (let g of res) {
@@ -1831,7 +1831,7 @@ break
 case 'asupan':
 if (q.includes('--help')) return reply(examquery) 
 if (q.toLowerCase() === "geayubi") {
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 const oi = geayubi
 const jsonData = JSON.parse(oi);
 const xm1 = Math.floor(Math.random() * jsonData.length);
@@ -1873,7 +1873,7 @@ case 'jadigambar': case 'toimg': case 'toimage':{
 if (q.includes('--help')) return reply(examplyme) 
    if (!m.isQuotedSticker) return reply('Reply stikernya!')
    if (!m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated !== true) return reply ('Kalo toimg stikernya jangan yang bergerak tod!')
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
     var stream = await downloadContentFromMessage(m.message.extendedTextMessage?.contextInfo.quotedMessage.stickerMessage, 'sticker')
     var buffer = Buffer.from([])
      for await(const chunk of stream) {
@@ -1888,7 +1888,7 @@ if (q.includes('--help')) return reply(examplyme)
 if (q.includes('--help')) return reply(examplyme) 
    if (!m.isQuotedSticker) return reply('Reply stikernya!')
    if (m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated !== true) return reply ('Kalo yang ini stikernya wajib yang bergerak tod!')
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
     var stream = await downloadContentFromMessage(m.message.extendedTextMessage?.contextInfo.quotedMessage.stickerMessage, 'sticker')
     var buffer = Buffer.from([])
      for await(const chunk of stream) {
@@ -1914,7 +1914,7 @@ break
 case 'manga':{
 if (q.includes('--help')) return reply(examquery) 
 if (!q) return reply(`Masukkan query!`)
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 let res = await fetch(`https://api.jikan.moe/v3/search/manga?q=${q}`)
 let json = await res.json()
 let { title, synopsis, chapters, url, volumes, score, image_url } = json.results[0]
@@ -1938,7 +1938,7 @@ sock.sendMessage(i.id, { text: `*[ BROADCAST ]*\n\n${q}` })
 break
 case 'couple': {
 if (q.includes('--help')) return reply(examkosong) 
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
 let anu = await fetchJson('https://raw.githubusercontent.com/iamriz7/kopel_/main/kopel.json')
 let random = anu[Math.floor(Math.random() * anu.length)]
 sock.sendMessage(from, { image: { url: random.male }, caption: `Donasi : ${Options.info.duituntukowner}` }, { quoted: m })
@@ -1954,7 +1954,7 @@ break
 case 'hoorror_blood':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link13 = `${textproo.hoorror_blood}`
      let anu13 = await textpro(link13, q)
      console.log(anu13)
@@ -1965,7 +1965,7 @@ if (q.includes('--help')) return reply(examquery)
    case 'sand':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link12 = `${textproo.sand}`
      let anu12 = await textpro(link12, q)
      console.log(anu12)
@@ -1976,7 +1976,7 @@ if (q.includes('--help')) return reply(examquery)
    case 'magma':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link11 = `${textproo.magma}`
      let anu11 = await textpro(link11, q)
      console.log(anu11)
@@ -1987,7 +1987,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'blackpink':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link10 = `${textproo.blackpink}`
      let anu10 = await textpro(link10, q)
      console.log(anu10)
@@ -1998,7 +1998,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'sketch':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link9 = `${textproo.sketch}`
      let anu9 = await textpro(link9, q)
      console.log(anu9)
@@ -2009,7 +2009,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'glass':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link8 = `${textproo.glass}`
      let anu8 = await textpro(link8, q)
      console.log(anu8)
@@ -2020,7 +2020,7 @@ if (q.includes('--help')) return reply(examquery)
    case 'lightglow':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link7 = `${textproo.lightglow}`
      let anu7 = await textpro(link7, q)
      console.log(anu7)
@@ -2031,7 +2031,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'sci_fi':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
       let link6 = `${textproo.sci_fi}`
       let anu6 = await textpro(link6, q)
      console.log(anu6)
@@ -2042,7 +2042,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'ice':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link5 = `${textproo.ice}`
      let anu5 = await textpro(link, q)
      console.log(anu5)
@@ -2053,7 +2053,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'demon':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link4 = `${textproo.gdemon}`
      let anu4 = await textpro(link4, q)
      console.log(anu4)
@@ -2064,7 +2064,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'batman':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link3 = `${textproo.batman}`
      let anu3 = await textpro(link3, q)
      console.log(anu3)
@@ -2075,7 +2075,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'sea_metal':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link1 = `${textproo.sea_metal}`
      let anu1 = await textpro(link1, q)
      console.log(anu1)
@@ -2086,7 +2086,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'skeleton':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link2 = `${textproo.skeleton}`
      let anu2 = await textpro(link2, q)
      console.log(anu2)
@@ -2097,7 +2097,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'arielpetir2':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link15 = `${textproo.arielpetir2}`
      let anu15 = await textpro(link15, q)
      console.log(anu15)
@@ -2157,6 +2157,22 @@ ${head7}
                 }
             }
             break
+  case 'freefire':{
+  	m.reply(from, '70💎 : 10K\n 140💎 : 20K\n355💎 : 50K\n720💎 : 100K\n1450💎 : 200K\n2180💎 : 300K\n3640💎 : 500K\n\nMM : 32K\nMB : 145K', { quoted : m } )
+}
+break
+  case 'mlmenu':{
+  	m.reply(from, '25 + 3💎 : 9K\n40 + 4💎 : 14K\n53 + 6💎 : 18K\n77 + 8💎 : 25K\n154 + 16💎 : 49K\n217 + 23💎 : 69K\n256 + 40💎 : 85K', { quoted : m } )
+}
+break
+  case 'pbmenu':{
+  	m.reply(from, '1200 Cash : 11K\n2400 Cash : 21K\n6000 Cash : 51K\n12000 Cash : 101K\n24000 Cash : 201K\n36000 Cash : 301K\n60000 Cash : 500K', { quoted : m } )
+}
+break
+  case 'supersus':{
+  	m.reply(from, '100 🌟 : 11K\n200 🌟 : 21K\n310 🌟 : 29K\n520 🌟 : 51K\n1060 🌟 : 101K\n2180 🌟 : 211K\n5600 🌟 : 531K', { quoted : m } )
+}
+break
   case 'groupmenu':{
   	const arielapriyani = `✘ *G R O U P - M E N U*
 
@@ -2172,41 +2188,6 @@ ${head7}
 ⌕ ${prefix}broadcast (Owner)`
 reply(arielapriyani)
 }
-break
-case 'arielnolimit':
-const arielsp4 = `*Tutorial Nya*				
-
-Download Termux & Zarchiver Di Playstore Terlebih Dahulu, Lalu Ketikan Command Dibawah
-
-✏️ pkg update -y
-✏️ pkg upgrade
-✏️ pkg install nodejs -y
-✏️ pkg install nodejs-lts -y
-✏️ pkg install git -y
-✏️ pkg install imagemagick -y
-✏️ pkg install libwebp -y
-✏️ pkg install ffmpeg -y
-✏️ termux-setup-storage
-✏️ cd /sdcard
-✏️ git clone https://github.com/ArielSP1609/MyBot2022
-✏️ cd MyBot2022
-✏️ npm start
-
-*TUTORIAL GANTI NOMOR BOT*
-
-✏️ Masuk Ke Folder *MyBot2022*
-✏️ Masuk Ke Folder *FunctionMD*
-✏️ Masuk Ke Folder *settings*
-✏️ Buka File *options.js*
-✏️ Ganti Nomor Bot & Owner
-
-*TUTORIAL SCAN QR NYA*
-
-✏️ Buka WhatsApp Yang Nomor Bot
-✏️ Klick Titik Tiga Yang Ada Di Atas
-✏️ Klick Perangkat Tertaut
-✏️ Scan Dan Tunggu Beberapa Detik`
-reply(arielsp4)
 break
 case 'downloadmenu':{
   	const arielkecee = `✘ *D O W N L O A D - M E N U*
@@ -2422,7 +2403,7 @@ case 'inikuis':{
   case 'bussines3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link16 = `${textproo.bussines3d}`
      let anu16 = await textpro(link16, q)
      console.log(anu16)
@@ -2433,7 +2414,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'neon':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link17 = `${textproo.neon}`
      let anu17 = await textpro(link17, q)
      console.log(anu17)
@@ -2444,7 +2425,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'stoneariel3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link18 = `${textproo.stoneariel3d}`
      let anu18 = await textpro(link18, q)
      console.log(anu18)
@@ -2455,7 +2436,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'neon3dariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link19 = `${textproo.neon3dariel}`
      let anu19 = await textpro(link19, q)
      console.log(anu19)
@@ -2466,7 +2447,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'impresiveariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link20 = `${textproo.impresiveariel}`
      let anu20 = await textpro(link20, q)
      console.log(anu20)
@@ -2477,7 +2458,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'neondevil3dariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link21 = `${textproo.neondevil3dariel}`
      let anu21 = await textpro(link21, q)
      console.log(anu21)
@@ -2488,7 +2469,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'underwater3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link22 = `${textproo.underwater3d}`
      let anu22 = await textpro(link22, q)
      console.log(anu22)
@@ -2499,7 +2480,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'bears3dariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link23 = `${textproo.bears3dariel}`
      let anu23 = await textpro(link23, q)
      console.log(anu23)
@@ -2510,7 +2491,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'fireworkbucin':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link24 = `${textproo.fireworkbucin}`
      let anu24 = await textpro(link24, q)
      console.log(anu24)
@@ -2521,7 +2502,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'metaldarkariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link25 = `${textproo.metaldarkariel}`
      let anu25 = await textpro(link25, q)
      console.log(anu25)
@@ -2532,7 +2513,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'halloweenariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link26 = `${textproo.halloweenariel}`
      let anu26 = await textpro(link26, q)
      console.log(anu26)
@@ -2543,7 +2524,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'captainamerikabyariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link27 = `${textproo.captainamerikabyariel}`
      let anu27 = await textpro(link27, q)
      console.log(anu27)
@@ -2554,7 +2535,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'spacetext':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link28 = `${textproo.spacetext}`
      let anu28 = await textpro(link28, q)
      console.log(anu28)
@@ -2565,7 +2546,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'plastic3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link29 = `${textproo.plastic3d}`
      let anu29 = await textpro(link29, q)
      console.log(anu29)
@@ -2576,7 +2557,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'dropwater3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link30 = `${textproo.dropwater3d}`
      let anu30 = await textpro(link30, q)
      console.log(anu30)
@@ -2587,7 +2568,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'avengerslogo3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link31 = `${textproo.avengerslogo3d}`
      let anu31 = await textpro(link31, q)
      console.log(anu31)
@@ -2598,7 +2579,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'harrypoter':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link32 = `${textproo.harrypoter}`
      let anu32 = await textpro(link, q)
      console.log(anu32)
@@ -2609,7 +2590,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'brokenglass':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link33 = `${textproo.brokenglass}`
      let anu33 = await textpro(link33, q)
      console.log(anu33)
@@ -2620,7 +2601,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'wonderfulgravity3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link35 = `${textproo.wonderfulgravity3d}`
      let anu35 = await textpro(link35, q)
      console.log(anu35)
@@ -2631,7 +2612,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'futuristicneon3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link36 = `${textproo.futuristicneon3d}`
      let anu36 = await textpro(link36, q)
      console.log(anu36)
@@ -2642,7 +2623,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'skytext3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link37 = `${textproo.skytext3d}`
      let anu37 = await textpro(link37, q)
      console.log(anu37)
@@ -2653,7 +2634,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'robotr2':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link38 = `${textproo.robotr2}`
      let anu38 = await textpro(link38, q)
      console.log(anu38)
@@ -2664,7 +2645,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'natal3d':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link39 = `${textproo.natal3d}`
      let anu39 = await textpro(link39, q)
      console.log(anu39)
@@ -2675,7 +2656,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'matrixstyle':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link40 = `${textproo.matrixstyle}`
      let anu40 = await textpro(link40, q)
      console.log(anu40)
@@ -2686,7 +2667,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'arielpetir':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link41 = `${textproo.arielpetir}`
      let anu41 = await textpro(link41, q)
      console.log(anu41)
@@ -2697,7 +2678,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'waterpiperariel':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link42 = `${textproo.waterpiperariel}`
      let anu42 = await textpro(link42, q)
      console.log(anu42)
@@ -2708,7 +2689,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'warning':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link43 = `${textproo.warning}`
      let anu43 = await textpro(link43, q)
      console.log(anu43)
@@ -2719,7 +2700,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'transformer':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link44 = `${textproo.transformer}`
      let anu44 = await textpro(link44, q)
      console.log(anu44)
@@ -2730,7 +2711,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'denim':{
 if (q.includes('--help')) return reply(examquery) 
     if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-     reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+     reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
      let link45 = `${textproo.denim}`
      let anu45 = await textpro(link45, q)
      console.log(anu45)
@@ -2746,7 +2727,7 @@ sock.sendMessage(from, {image : { url : 'https://i.ibb.co/Kw282gw/b54b1faadf3b.j
 break	
 case 'pinterest': {
 if (q.includes('--help')) return reply(examquery) 
-reply('*Tunggu... ( ꈍᴗꈍ)*')
+reply('*Tunggu Otey... ( ꈍᴗꈍ)*')
 const anu = await pinterest(q)
 const result = anu[Math.floor(Math.random(), anu.length)]
 sock.sendMessage(from, { image: { url: result }, caption: '▹ Media Url : '+result }, { quoted: m })
@@ -3267,7 +3248,7 @@ if (q.includes('--help')) return reply(examkosong)
      {
      index: 1, 
       urlButton: {
-       displayText: 'YOUTUBE', 
+       displayText: 'INSTAGRAM', 
        url: `${Options.info.youtubeLu}`
       } },
      {
@@ -3488,7 +3469,7 @@ function _0x40d5(_0x445370,_0x3f8e5f){const _0x68ebb7=_0x68eb();return _0x40d5=f
   case 'youtubemp3':{
 if (q.includes('--help')) return reply(examlink) 
   if (args.length < 1) return reply('linknya?')
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    try{
     await yta(args[0])
 .then((res) => {
@@ -3509,7 +3490,7 @@ if (q.includes('--help')) return reply(examlink)
   case 'youtubemp4':{
 if (q.includes('--help')) return reply(examlink) 
   if (args.length < 1) return reply('linknya?')
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    try{
     await ytv(args[0])
 .then((res) => {
@@ -3641,147 +3622,147 @@ if (q.includes('--help')) return reply(examplyme)
   break
   case 'sound1':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://l.top4top.io/m_23268bsoq0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
     case 'sound2':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://l.top4top.io/m_23269i60f0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
   case 'sound3':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://a.top4top.io/m_2353wssxf0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
   case 'sound4':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://b.top4top.io/m_23266l2s00.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
   case 'sound5':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://i.top4top.io/m_23266hn860.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
   case 'sound6':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://f.top4top.io/m_2326z7znw0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound7':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://j.top4top.io/m_2353nnowu0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound8':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://e.top4top.io/m_23533o1ju0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound9':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://h.top4top.io/m_2353xuwlp0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound10':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://f.top4top.io/m_2353y4qv70.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound11':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://j.top4top.io/m_23534642l0.mp4`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound12':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://h.top4top.io/m_235991jjn0.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound13':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://j.top4top.io/m_23594d72t1.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound14':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://k.top4top.io/m_23595i6io2.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound15':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://a.top4top.io/m_2359x5g8j4.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound16':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://l.top4top.io/m_2359l01x13.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound17':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://b.top4top.io/m_2359ola665.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound18':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://c.top4top.io/m_2359n6agj6.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound19':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://d.top4top.io/m_2359fok3u7.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound20':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://e.top4top.io/m_2359q1yyh8.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
   break
 case 'sound21':{
 if (q.includes('--help')) return reply(examkosong) 
-reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    sock.sendMessage(from, { audio: {url : `https://f.top4top.io/m_2359l8lje9.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: m}
    )
   }
@@ -3790,7 +3771,7 @@ reply(`*Tunggu... ( ꈍᴗꈍ)*`)
 case 'shinobu':
 case 'awoo': case 'neko':{
 if (q.includes('--help')) return reply(examkosong) 
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    let za = await fetchJson(`https:/\/\waifu.pics/api/sfw/${order}`)
             
   
@@ -3822,7 +3803,7 @@ if (q.includes('--help')) return reply(examply)
   case 'wallpaperaccess':{
 if (q.includes('--help')) return reply(examquery) 
   if (args.length < 1) return m.reply(from, 'Cari gambar apa?', { quoted : m } )
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
   try{
   const aku_biji = await wallpaperaccess(q)
   let jsonData = aku_biji
@@ -3853,7 +3834,7 @@ if (q.includes('--help')) return reply(examquery)
   case 'sci_fi':{
 if (q.includes('--help')) return reply(examquery) 
   if (args.length < 1) return m.reply(from, `Contoh : ${prefix+order} ${Options.info.ownerName}`, { quoted : m } )
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
   let link46 = `${textproo.sci_fi}`
   let anu46 = await textpro(link46, q)
   console.log(anu46)
@@ -3876,7 +3857,7 @@ if (q.includes('--help')) return reply(examquery)
 if (q.includes('--help')) return reply(examlink) 
   if (!q) return reply('Contoh : #tiktokmp3 Link Video Tiktok *Untuk Menjadikan Video Tersebut Menjadi Musik*')
   if (!q.includes('tiktok')) return reply('Itu bukan link tiktok!')
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    const musim_rambutan = await TiktokDownloader(`${q}`).catch(e => {
  reply(pesan.eror) 
 } )
@@ -3890,7 +3871,7 @@ if (q.includes('--help')) return reply(examlink)
 if (q.includes('--help')) return reply(examlink) 
   if (!q) return reply('Contoh : #tiktoknowm Link Video Tiktok')
   if (!q.includes('tiktok')) return reply('Itu bukan link tiktok!')
-  reply(`*Tunggu... ( ꈍᴗꈍ)*`)
+  reply(`*Tunggu Otey... ( ꈍᴗꈍ)*`)
    const musim_rambutan = await TiktokDownloader(`${q}`).catch(e => {
  reply(pesan.eror) 
 } )

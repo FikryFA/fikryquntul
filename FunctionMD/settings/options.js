@@ -6,11 +6,11 @@
  limitawal: 15,
  info: {
    owner: ["6285731630991@s.whatsapp.net","62895364443072@s.whatsapp.net"], //Yang Awal Nomor Bot Yang Kedua Nomor Lu
-   arielspkece: ["62895364443072"], //Nomor Lu
+   arielspkece: ["0895364443072"], //Nomor Lu
    ownerName: "Fikry FA", //Nama Lu
    wmAriel: "62895364443072", //Nomor Lu
    youtubeLu: "https://instagram.com/sainnnaaaaii16?igshid=YmMyMTA2M2Y=", //Youtube Lu
-   botName: "Pera Bot", //Nama Bot Lu
+   botName: "Dixie Bot", //Nama Bot Lu
    duituntukowner: "https://saweria.co/DixieBot", //Saweria Lu
    version: "^2.0.0"
    },
